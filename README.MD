@@ -1,4 +1,8 @@
-Sometimes we appreciate live from the top of the table without any worry.
+
+![pls dont sue me](/Users/FcoX/Downloads/giphy-12.gif)
+
+
+Sometimes we appreciate life from the top of the table without any worry.
 
 Hi, and be welcome to Bite & Cash, where you can die for a bite ;).
 Bite & Cash it's a life insurance where you can surf without any issue, you can enjoy of the activity, and if you die for any chance, your family it's going to cry... of happiness.
