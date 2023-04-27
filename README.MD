@@ -1,6 +1,5 @@
 
-![pls dont sue me](/Users/FcoX/Downloads/giphy-12.gif)
-
+![](giphy-12.gif)
 
 Sometimes we appreciate life from the top of the table without any worry.
 
