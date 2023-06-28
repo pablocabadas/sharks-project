@@ -1,31 +1,47 @@
+# Surfing's Shark Encounters
 
-![](giphy-12.gif)
+![Alt text](Images/1521762314602.jpeg)
 
-Sometimes we appreciate life from the top of the table without any worry.
+## Introduction
 
-Hi, and be welcome to Bite & Cash, where you can die for a bite ;).
-Bite & Cash it's a life insurance where you can surf without any issue, you can enjoy of the activity, and if you die for any chance, your family it's going to cry... of happiness.
-Because our life insurance can assure your life for at least €100.000 (the amount of bites is not included in the promotion).
+The goal of the Sharks Project is to perform an analysis of the "Global Shark Attacks" database, which was extracted from Kaggle. This database contains data on shark attacks of all kinds from 1845 to 2018.
 
-To know the rentability of our business we have done an investigation based on data that have been recollected since the creation of the seas, Global Shark Attacks data frame on Kaggle platform.
+The purpose of this project is to explore the database and analyze the useful data it contains. Various data processing, filtering, and visualization tools have been employed to achieve this objective.
 
-Once we have the data frame, we based the investigation on the countries where we cash the bite, those countries are USA, Australia, España, Costa Rica, Brazil, Indonesia, Mexico and South Africa.
+## Data Processing
 
-After we set our data on those countries, we clean the data of the Nan values (we are talking about values equal to "0", not the Indian and Pakistan bread), and we did it deleting those rows without any data on the country, region, age, year, activity and fatality section of the data frame.
+To begin the analysis, the dataset was processed to remove any missing or empty values. Once the dataset was cleaned, the focus was narrowed down to examine the mortality rate resulting from shark attacks during aquatic activities involving surfing.
 
-After that, we filter the data just with those bites or attacks that happen on top of the board. Bite & Cash, is a company that believes the sport in on top of the table, not swimming on it or doing some paddle or even fallen of the table, a surf table is for surf.
+To conduct a comprehensive analysis of this situation, the dataset was filtered to identify the best countries for engaging in aquatic activities associated with surfing. The selected countries for analysis are Australia, Brazil, Costa Rica, Indonesia, Mexico, South Africa, and the USA.
 
-With that clear, we can proceed and see a data frame structured with Country, Region, Year, Age, Activity (remember, Surfing, nothing less) and Fatality. 
+Next, regular expressions (regex) were used to search for occurrences of "Surfing" within the dataset. The dataset was then divided into three subgroups based on age ranges: 0-17, 18-60, and 61 and above. This division allowed for an examination of the mortality rates of shark attacks within each age range.
 
-After that we set 3 different tables to see the Bitetality in 3 different ranges of age, 0 to 17 and young, 18 to 60 as adult and more than 60 as senior, this is to see where we have to be more strict o more exclusive in our service at the moment when we sell the service.
+![Alt text](Images/plot4.png)
 
-After we set the tables, and we run the numbers based on the fatality of the attacks based in the ages and the different countries, we can conclude:
-    - No matter your age, the probabilities of getting bite are high, but the people don't die that easily.
-    - The countries with the most amount of bites are USA (obviously the center of the word) and Australia, so we can base our activities there. We can always scare people to get more clients.
-    - And last but not least, the business is extremely profitable, this is because we only ensure and pay if people die, but the statistics show people just die in a few attacks during the years, so we can just say two things about this:
-        - You will get a bite, that's a fact.
-        - Show me your money MTF (My Tough Friend).
+## Data Visualization
 
-Thanks for your attention and remember,
-Every bite leaves your family closer to the bush of money.
+The visualizations above illustrate the distribution of shark attack mortality rates across different age groups engaged in surfing activities in various countries. These visualizations offer valuable insights into the severity of shark attacks within each age range.
 
+Here we can observe the fatality rates among young individuals across various countries.
+
+![Alt text](Images/plot1.png)
+
+![Alt text](Images/plot5.png)
+
+Here we can observe the fatality rates among adults individuals across various countries.
+
+![Alt text](Images/plot2.png)
+
+![Alt text](Images/plot6.png)
+
+Here we can observe the fatality rates among senior individuals across various countries.
+
+![Alt text](Images/plot3.png)
+
+![Alt text](Images/plot7.png)
+
+## Conclusion
+
+Based on the data analysis conducted, it has been determined that Australia and the USA are the most suitable countries for engaging in surfing-related aquatic activities. This conclusion takes into account the frequency of shark attacks and the corresponding mortality rates in each of these countries.
+
+By following the steps outlined in this project, researchers and enthusiasts can gain a better understanding of shark attacks during surfing activities and make informed decisions regarding water safety in different regions.
